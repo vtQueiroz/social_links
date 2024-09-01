@@ -1,0 +1,106 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;  
+}
+
+body {
+     background-color: #141414
+    
+}
+
+.main_section {
+    background-color: #1F1F1F;
+    border-radius: 1rem;
+    width: 25%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin: 165px auto;
+}
+
+.img_profile {
+    width: 10%;
+    
+}
+
+#profile_photo {
+    width: 100px;    
+}
+
+.img_profile img {
+    width: 100%;
+    margin: 3.6rem auto;
+    border-radius: 50%;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 100;
+}
+
+.info h1{
+    font-size: 2rem;
+    color: #F2F2F2;
+    padding: .2rem 0;
+    
+}
+
+.info h3 {
+    color: #D3F263;
+}
+
+.info p {
+    padding: 1.5rem;
+    color: #F2F2F2;
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 0 1rem 4rem 1rem;
+    
+}
+
+.links a {
+    text-decoration: none;
+    width: 80%;
+    padding: 1.6rem 0;
+    border-radius: .8rem;
+    background-color: #333333;
+    color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: #D3F263;
+    color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+    .main_section {
+        width: 50%;
+        margin-bottom: 5rem;
+        text-align: center;
+        margin: 5rem auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main_section {
+        width: 80%;
+        margin-bottom: 5rem;
+        text-align: center;
+        margin: 5rem auto;
+    }
+}
